@@ -1,0 +1,88 @@
+2022-09-23 20:14:08,020 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2022-09-23 20:14:08,020 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-09-23 20:14:36,193 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:14:36] "GET / HTTP/1.1" 200 -
+2022-09-23 20:14:36,825 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:14:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-09-23 20:14:47,978 root INFO Description analysis started
+2022-09-23 20:14:52,701 root INFO Apps details captured
+2022-09-23 20:14:52,717 root INFO Data Downloaded in CSV format
+2022-09-23 20:14:56,949 root INFO  Spell check done
+2022-09-23 20:15:00,118 root INFO  word cloud created successfully
+2022-09-23 20:15:00,119 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:15:00] "POST /review HTTP/1.1" 200 -
+2022-09-23 20:15:00,285 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:15:00] "GET /static/images/cricket_description.png HTTP/1.1" 200 -
+2022-09-23 20:15:35,366 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:15:35] "GET / HTTP/1.1" 200 -
+2022-09-23 20:15:56,823 root INFO Review Analysis started
+2022-09-23 20:16:07,072 root INFO  all review details collected 
+2022-09-23 20:16:07,104 root INFO  review Data Downloaded in CSV format
+2022-09-23 20:16:07,104 root INFO trying to store data in Mongodb
+2022-09-23 20:16:07,104 root INFO  Database issue 
+2022-09-23 20:16:07,104 root ERROR The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\sahil\anaconda3\envs\app1\python.exe -m pip install "pymongo[srv]"
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\app1.py", line 145, in fetch_review
+    client = pymongo.MongoClient("mongodb+srv://sahil5723:NEWlife123@cluster0.1bbad.mongodb.net/?retryWrites=true&w=majority")
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\pymongo\mongo_client.py", line 726, in __init__
+    res = uri_parser.parse_uri(
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\pymongo\uri_parser.py", line 469, in parse_uri
+    raise ConfigurationError(
+pymongo.errors.ConfigurationError: The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\sahil\anaconda3\envs\app1\python.exe -m pip install "pymongo[srv]"
+2022-09-23 20:16:07,110 root INFO review content extracted 
+2022-09-23 20:17:19,939 root INFO Spell check done
+2022-09-23 20:17:19,995 root INFO Stop words removed
+2022-09-23 20:17:21,662 root INFO  review word cloud created successfully
+2022-09-23 20:17:21,662 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:17:21] "POST /review HTTP/1.1" 200 -
+2022-09-23 20:17:21,712 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:17:21] "GET /static/images/shopping_review.png HTTP/1.1" 200 -
+2022-09-23 20:21:47,601 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2022-09-23 20:21:47,601 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-09-23 20:22:10,873 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:22:10] "GET / HTTP/1.1" 200 -
+2022-09-23 20:22:24,999 root INFO Review Analysis started
+2022-09-23 20:22:28,135 root INFO  all review details collected 
+2022-09-23 20:22:28,162 root INFO  review Data Downloaded in CSV format
+2022-09-23 20:22:28,162 root INFO trying to store data in Mongodb
+2022-09-23 20:22:28,815 root INFO review content extracted 
+2022-09-23 20:23:09,094 root INFO Spell check done
+2022-09-23 20:23:10,311 root INFO Stop words removed
+2022-09-23 20:23:12,289 root INFO  review word cloud created successfully
+2022-09-23 20:23:12,291 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:23:12] "POST /review HTTP/1.1" 200 -
+2022-09-23 20:23:12,441 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:23:12] "GET /static/images/movies_review.png HTTP/1.1" 200 -
+2022-09-23 20:23:28,394 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:23:28] "GET / HTTP/1.1" 200 -
+2022-09-23 20:23:43,187 root INFO Description analysis started
+2022-09-23 20:23:46,661 root INFO Apps details captured
+2022-09-23 20:23:46,666 root INFO Data Downloaded in CSV format
+2022-09-23 20:23:57,846 root INFO  Spell check done
+2022-09-23 20:23:59,367 root INFO  word cloud created successfully
+2022-09-23 20:23:59,368 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:23:59] "POST /review HTTP/1.1" 200 -
+2022-09-23 20:23:59,422 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 20:23:59] "GET /static/images/news_description.png HTTP/1.1" 200 -
+2022-09-23 21:27:01,277 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2022-09-23 21:27:01,278 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-09-23 21:27:20,690 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:27:20] "GET / HTTP/1.1" 200 -
+2022-09-23 21:27:27,953 root INFO Description analysis started
+2022-09-23 21:27:28,961 root INFO Apps details captured
+2022-09-23 21:27:28,975 root INFO Data Downloaded in CSV format
+2022-09-23 21:27:30,987 root INFO  Spell check done
+2022-09-23 21:27:34,807 root INFO  word cloud created successfully
+2022-09-23 21:27:34,813 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:27:34] "POST /review HTTP/1.1" 200 -
+2022-09-23 21:27:34,983 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:27:34] "GET /static/images/games_description.png HTTP/1.1" 200 -
+2022-09-23 21:43:53,105 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.10:8000
+2022-09-23 21:43:53,105 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-09-23 21:44:16,946 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:44:16] "GET / HTTP/1.1" 200 -
+2022-09-23 21:44:17,187 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:44:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-09-23 21:44:31,431 root INFO Description analysis started
+2022-09-23 21:44:33,317 root INFO Apps details captured
+2022-09-23 21:44:33,323 root INFO Data Downloaded in CSV format
+2022-09-23 21:44:35,629 root INFO  Spell check done
+2022-09-23 21:44:38,668 root INFO  word cloud created successfully
+2022-09-23 21:44:38,670 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:44:38] "POST /review HTTP/1.1" 200 -
+2022-09-23 21:44:39,154 werkzeug INFO 127.0.0.1 - - [23/Sep/2022 21:44:39] "GET /static/images/samsung_description.png HTTP/1.1" 200 -
