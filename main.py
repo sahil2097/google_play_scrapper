@@ -305,5 +305,7 @@ def fetch_review():
         return render_template('index.html')
 
 if __name__ == "__main__":
+    
     # app.run(host='127.0.0.1', port=8001, debug=True)
-    appp.run(host='0.0.0.0', port=8000)
+    # appp.run(host='0.0.0.0', port=8000)
+    appp.run(debug = False)
