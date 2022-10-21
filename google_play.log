@@ -1,0 +1,731 @@
+2022-10-19 19:47:01,756 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 19:47:01,756 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 19:47:18,051 werkzeug INFO 192.168.1.12 - - [19/Oct/2022 19:47:18] "GET / HTTP/1.1" 200 -
+2022-10-19 19:47:18,468 werkzeug INFO 192.168.1.12 - - [19/Oct/2022 19:47:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-10-19 19:47:39,980 root INFO Description analysis started
+2022-10-19 19:47:44,449 root INFO Apps details captured
+2022-10-19 19:47:44,463 root INFO Data Downloaded in CSV format
+2022-10-19 19:47:46,708 root INFO  Spell check done
+2022-10-19 19:47:49,815 root INFO  word cloud created successfully
+2022-10-19 19:47:49,818 werkzeug INFO 192.168.1.12 - - [19/Oct/2022 19:47:49] "POST /review HTTP/1.1" 200 -
+2022-10-19 19:47:49,993 werkzeug INFO 192.168.1.12 - - [19/Oct/2022 19:47:49] "GET /static/images/cars_description.png HTTP/1.1" 200 -
+2022-10-19 20:00:39,251 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:00:39,251 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:01:08,875 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:01:08] "GET / HTTP/1.1" 200 -
+2022-10-19 20:01:22,223 root INFO Description analysis started
+2022-10-19 20:01:24,722 root INFO Apps details captured
+2022-10-19 20:01:24,730 root INFO Data Downloaded in CSV format
+2022-10-19 20:01:26,450 root INFO  Spell check done
+2022-10-19 20:01:29,308 root INFO  word cloud created successfully
+2022-10-19 20:01:29,308 root INFO Review Analysis started
+2022-10-19 20:01:33,411 root INFO  all review details collected 
+2022-10-19 20:01:33,435 root INFO  review Data Downloaded in CSV format
+2022-10-19 20:01:33,435 root INFO trying to store data in Mongodb
+2022-10-19 20:01:34,178 root INFO review content extracted 
+2022-10-19 20:04:51,409 root INFO Spell check done
+2022-10-19 20:04:51,441 root INFO Stop words removed
+2022-10-19 20:04:53,066 root INFO  review word cloud created successfully
+2022-10-19 20:04:53,066 root INFO Description analysis started
+2022-10-19 20:16:01,280 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:16:01,280 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:16:12,147 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:16:12] "GET / HTTP/1.1" 200 -
+2022-10-19 20:16:30,564 root INFO Description analysis started
+2022-10-19 20:16:32,930 root INFO Apps details captured
+2022-10-19 20:16:32,935 root INFO Data Downloaded in CSV format
+2022-10-19 20:16:38,108 root INFO  Spell check done
+2022-10-19 20:16:40,980 root INFO  word cloud created successfully
+2022-10-19 20:16:40,980 root INFO Review Analysis started
+2022-10-19 20:16:45,443 root INFO  all review details collected 
+2022-10-19 20:16:45,463 root INFO  review Data Downloaded in CSV format
+2022-10-19 20:16:45,463 root INFO trying to store data in Mongodb
+2022-10-19 20:16:46,127 root INFO review content extracted 
+2022-10-19 20:17:53,150 root INFO Spell check done
+2022-10-19 20:17:53,173 root INFO Stop words removed
+2022-10-19 20:17:54,811 root INFO  review word cloud created successfully
+2022-10-19 20:17:54,811 root INFO Description and Review analysis started
+2022-10-19 20:17:56,927 root INFO Apps details captured
+2022-10-19 20:18:02,325 root INFO  Spell check done
+2022-10-19 20:18:06,234 root INFO  all review details collected in desc+review 
+2022-10-19 20:18:06,236 root INFO review content extracted desc+rev
+2022-10-19 20:19:04,430 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:19:04,430 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:19:10,883 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:19:10] "GET / HTTP/1.1" 200 -
+2022-10-19 20:19:27,008 root INFO Description analysis started
+2022-10-19 20:19:28,802 root INFO Apps details captured
+2022-10-19 20:19:28,811 root INFO Data Downloaded in CSV format
+2022-10-19 20:19:32,716 root INFO  Spell check done
+2022-10-19 20:19:35,421 root INFO  word cloud created successfully
+2022-10-19 20:19:35,421 root INFO Review Analysis started
+2022-10-19 20:19:38,703 root INFO  all review details collected 
+2022-10-19 20:19:38,718 root INFO  review Data Downloaded in CSV format
+2022-10-19 20:19:38,718 root INFO trying to store data in Mongodb
+2022-10-19 20:19:39,327 root INFO review content extracted 
+2022-10-19 20:19:44,098 root INFO Spell check done
+2022-10-19 20:19:44,111 root INFO Stop words removed
+2022-10-19 20:19:45,639 root INFO  review word cloud created successfully
+2022-10-19 20:19:45,639 root INFO Description and Review analysis started
+2022-10-19 20:19:47,645 root INFO Apps details captured
+2022-10-19 20:19:51,039 root INFO  Spell check done
+2022-10-19 20:19:54,047 root INFO  all review details collected in desc+review 
+2022-10-19 20:19:54,048 root INFO review content extracted desc+rev
+2022-10-19 20:20:01,721 root INFO Spell check done
+2022-10-19 20:20:01,737 root INFO Error in description + rev Analysis
+2022-10-19 20:20:01,737 root ERROR sequence item 0: expected str instance, list found
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 384, in fetch_review
+    desc_rev = " ".join([description_filtered_sentence, filtered_sentence])
+TypeError: sequence item 0: expected str instance, list found
+2022-10-19 20:20:01,745 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:20:01] "POST /review HTTP/1.1" 200 -
+2022-10-19 20:20:01,930 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:20:01] "GET /static/images/college_review.png HTTP/1.1" 200 -
+2022-10-19 20:25:25,466 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:25:25,466 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:25:25,845 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:25:25] "GET / HTTP/1.1" 200 -
+2022-10-19 20:25:40,589 root ERROR local variable 'full_filename' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 418, in fetch_review
+    return render_template('wordcloudoutput.html', user_image= full_filename)
+UnboundLocalError: local variable 'full_filename' referenced before assignment
+2022-10-19 20:25:40,589 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-19 20:25:40,605 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:25:40] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-19 20:37:53,442 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:37:53,442 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:37:54,240 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:37:54] "GET / HTTP/1.1" 200 -
+2022-10-19 20:38:31,219 root ERROR invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 46, in fetch_review
+    no_of_apps = int(request.form['total_apps'])
+ValueError: invalid literal for int() with base 10: ''
+2022-10-19 20:38:31,221 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-19 20:38:31,224 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:38:31] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-19 20:48:13,247 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 20:48:13,263 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 20:48:13,366 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:48:13] "GET / HTTP/1.1" 200 -
+2022-10-19 20:48:35,656 root ERROR invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 46, in fetch_review
+    no_of_apps = int(request.form['total_apps'])
+ValueError: invalid literal for int() with base 10: ''
+2022-10-19 20:48:35,664 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-19 20:48:35,664 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:48:35] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-19 20:49:00,587 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 20:49:00] "GET / HTTP/1.1" 200 -
+2022-10-19 21:10:05,971 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-19 21:10:05,971 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-19 21:10:19,431 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 21:10:19] "GET / HTTP/1.1" 200 -
+2022-10-19 21:10:51,561 root ERROR local variable 'full_filename' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 418, in fetch_review
+    return render_template('wordcloudoutput.html', user_image= full_filename)
+UnboundLocalError: local variable 'full_filename' referenced before assignment
+2022-10-19 21:10:51,562 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-19 21:10:51,567 werkzeug INFO 127.0.0.1 - - [19/Oct/2022 21:10:51] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 09:48:52,312 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 09:48:52,312 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 09:49:19,526 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:49:19] "GET / HTTP/1.1" 200 -
+2022-10-21 09:49:21,209 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:49:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-10-21 09:49:37,151 root INFO Description analysis started
+2022-10-21 09:49:39,821 root INFO Apps details captured
+2022-10-21 09:49:39,845 root INFO Data Downloaded in CSV format
+2022-10-21 09:49:46,032 root INFO  Spell check done
+2022-10-21 09:49:51,006 root INFO  word cloud created successfully
+2022-10-21 09:49:51,014 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:49:51] "POST /review HTTP/1.1" 200 -
+2022-10-21 09:49:51,198 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:49:51] "GET /static/images/science_description.png HTTP/1.1" 200 -
+2022-10-21 09:50:29,222 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:50:29] "GET / HTTP/1.1" 200 -
+2022-10-21 09:50:38,323 root INFO Review Analysis started
+2022-10-21 09:50:43,069 root INFO  all review details collected 
+2022-10-21 09:50:43,105 root INFO  review Data Downloaded in CSV format
+2022-10-21 09:50:43,105 root INFO trying to store data in Mongodb
+2022-10-21 09:50:44,111 root INFO review content extracted 
+2022-10-21 09:51:06,194 root INFO Spell check done
+2022-10-21 09:51:06,266 root INFO Stop words removed
+2022-10-21 09:51:08,068 root INFO  review word cloud created successfully
+2022-10-21 09:51:08,068 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:51:08] "POST /review HTTP/1.1" 200 -
+2022-10-21 09:51:08,114 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 09:51:08] "GET /static/images/science_review.png HTTP/1.1" 200 -
+2022-10-21 13:58:01,390 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 13:58:01,390 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 13:58:09,453 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 13:58:09] "GET / HTTP/1.1" 200 -
+2022-10-21 13:58:30,015 root INFO Recent changes analysis started
+2022-10-21 13:58:32,393 root INFO Apps details captured
+2022-10-21 13:58:32,416 root INFO Data Downloaded in CSV format
+2022-10-21 13:58:32,736 root INFO  Spell check done
+2022-10-21 13:58:34,952 root INFO  word cloud created successfully
+2022-10-21 13:58:34,960 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 13:58:34] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:04:00,228 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 14:04:00,228 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 14:04:05,131 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:04:05] "GET / HTTP/1.1" 200 -
+2022-10-21 14:04:29,605 root INFO Recent changes analysis started
+2022-10-21 14:04:37,203 root INFO Apps details captured
+2022-10-21 14:04:37,221 root INFO Data Downloaded in CSV format
+2022-10-21 14:04:37,719 root INFO  Spell check done
+2022-10-21 14:04:39,884 root INFO  word cloud created successfully
+2022-10-21 14:04:39,892 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:04:39] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:14:58,510 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 14:14:58,510 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 14:15:02,423 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:15:02] "GET / HTTP/1.1" 200 -
+2022-10-21 14:15:13,858 root INFO Description analysis started
+2022-10-21 14:15:18,528 root INFO Apps details captured
+2022-10-21 14:15:18,536 root INFO Data Downloaded in CSV format
+2022-10-21 14:15:32,656 root INFO  Spell check done
+2022-10-21 14:15:34,005 root INFO  word cloud created successfully
+2022-10-21 14:15:34,005 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:15:34] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:22:16,365 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 14:22:16,365 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 14:22:19,644 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:22:19] "GET / HTTP/1.1" 200 -
+2022-10-21 14:22:43,844 root INFO Description analysis started
+2022-10-21 14:22:51,546 root INFO Apps details captured
+2022-10-21 14:22:51,568 root INFO Data Downloaded in CSV format
+2022-10-21 14:23:16,804 root INFO  Spell check done
+2022-10-21 14:23:18,209 root INFO  word cloud created successfully
+2022-10-21 14:23:18,217 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:23:18] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:34:09,262 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:34:09] "GET / HTTP/1.1" 200 -
+2022-10-21 14:34:28,562 root INFO Review Analysis started
+2022-10-21 14:34:35,448 root INFO  all review details collected 
+2022-10-21 14:34:35,478 root INFO  review Data Downloaded in CSV format
+2022-10-21 14:34:35,479 root INFO trying to store data in Mongodb
+2022-10-21 14:34:36,337 root INFO review content extracted 
+2022-10-21 14:35:07,990 root INFO Spell check done
+2022-10-21 14:35:08,056 root INFO Stop words removed
+2022-10-21 14:35:08,116 root INFO  review word cloud created successfully
+2022-10-21 14:35:08,123 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:35:08] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:35:41,577 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:35:41] "GET / HTTP/1.1" 200 -
+2022-10-21 14:35:56,503 root INFO Recent changes analysis started
+2022-10-21 14:35:56,786 root INFO Recent changes analysis started
+2022-10-21 14:36:06,009 root INFO Apps details captured
+2022-10-21 14:36:06,024 root INFO Data Downloaded in CSV format
+2022-10-21 14:36:07,462 root INFO  Spell check done
+2022-10-21 14:36:07,469 root INFO  word cloud created successfully
+2022-10-21 14:36:07,473 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:36:07] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:36:07,495 root INFO Apps details captured
+2022-10-21 14:36:07,503 root INFO Data Downloaded in CSV format
+2022-10-21 14:36:08,849 root INFO  Spell check done
+2022-10-21 14:36:08,855 root INFO  word cloud created successfully
+2022-10-21 14:36:08,859 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:36:08] "POST /review HTTP/1.1" 200 -
+2022-10-21 14:48:24,867 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 14:48:24,867 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 14:48:31,790 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:48:31] "GET / HTTP/1.1" 200 -
+2022-10-21 14:48:48,312 root INFO Description analysis started
+2022-10-21 14:48:50,772 root INFO Apps details captured
+2022-10-21 14:48:50,786 root INFO Data Downloaded in CSV format
+2022-10-21 14:48:53,353 root INFO  Spell check done
+2022-10-21 14:48:55,028 root INFO Error in description Analysis
+2022-10-21 14:48:55,028 root ERROR unsupported operand type(s) for +: 'set' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = set(stop_words + remove_stop_words)
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+2022-10-21 14:48:55,028 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 14:48:55,028 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 14:48:55,036 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:48:55] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 14:49:23,138 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:49:23] "GET / HTTP/1.1" 200 -
+2022-10-21 14:49:39,376 root INFO Description analysis started
+2022-10-21 14:49:41,785 root INFO Apps details captured
+2022-10-21 14:49:41,796 root INFO Data Downloaded in CSV format
+2022-10-21 14:49:44,353 root INFO  Spell check done
+2022-10-21 14:49:44,361 root INFO Error in description Analysis
+2022-10-21 14:49:44,361 root ERROR unsupported operand type(s) for +: 'set' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = set(stop_words + remove_stop_words)
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+2022-10-21 14:49:44,361 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 14:49:44,361 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 14:49:44,370 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:49:44] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 14:54:24,090 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:54:24] "GET / HTTP/1.1" 200 -
+2022-10-21 14:54:39,853 root INFO Description analysis started
+2022-10-21 14:54:44,796 root INFO Apps details captured
+2022-10-21 14:54:44,810 root INFO Data Downloaded in CSV format
+2022-10-21 14:54:53,389 root INFO  Spell check done
+2022-10-21 14:54:53,423 root INFO Error in description Analysis
+2022-10-21 14:54:53,423 root ERROR unsupported operand type(s) for +: 'set' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = set(stop_words.extend(remove_stop_words))
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+2022-10-21 14:54:53,423 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 14:54:53,423 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 14:54:53,423 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 14:54:53] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 15:30:54,679 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:30:54,679 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:30:55,965 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:30:55] "GET / HTTP/1.1" 200 -
+2022-10-21 15:31:35,907 root INFO Description analysis started
+2022-10-21 15:31:39,740 root INFO Apps details captured
+2022-10-21 15:31:39,759 root INFO Data Downloaded in CSV format
+2022-10-21 15:31:49,396 root INFO  Spell check done
+2022-10-21 15:31:50,801 root INFO Error in description Analysis
+2022-10-21 15:31:50,801 root ERROR unsupported operand type(s) for +: 'set' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = list(set((stop_words) + (remove_stop_words)))
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+2022-10-21 15:31:50,801 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 15:31:50,809 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 15:31:50,809 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:31:50] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 15:31:56,864 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:31:56] "GET / HTTP/1.1" 200 -
+2022-10-21 15:32:13,539 root INFO Description analysis started
+2022-10-21 15:32:17,418 root INFO Apps details captured
+2022-10-21 15:32:17,428 root INFO Data Downloaded in CSV format
+2022-10-21 15:32:27,359 root INFO  Spell check done
+2022-10-21 15:32:27,375 root INFO Error in description Analysis
+2022-10-21 15:32:27,375 root ERROR unsupported operand type(s) for +: 'set' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = list(set((stop_words) + (remove_stop_words)))
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+2022-10-21 15:32:27,375 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 15:32:27,375 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 15:32:27,375 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:32:27] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 15:33:46,887 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:33:46,887 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:34:01,615 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:34:01] "GET / HTTP/1.1" 200 -
+2022-10-21 15:34:30,757 root INFO Description analysis started
+2022-10-21 15:34:34,542 root INFO Apps details captured
+2022-10-21 15:34:34,566 root INFO Data Downloaded in CSV format
+2022-10-21 15:34:47,128 root INFO  Spell check done
+2022-10-21 15:34:48,524 root INFO Error in description Analysis
+2022-10-21 15:34:48,524 root ERROR unsupported operand type(s) for +: 'set' and 'list'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 90, in fetch_review
+    stop_words = list(set((stop_words) + (remove_stop_words)))
+TypeError: unsupported operand type(s) for +: 'set' and 'list'
+2022-10-21 15:34:48,524 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 296, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 15:34:48,524 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 15:34:48,532 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:34:48] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 15:35:46,123 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:35:46,123 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:35:48,826 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:35:48] "GET / HTTP/1.1" 200 -
+2022-10-21 15:36:01,939 root INFO Description analysis started
+2022-10-21 15:36:05,856 root INFO Apps details captured
+2022-10-21 15:36:05,867 root INFO Data Downloaded in CSV format
+2022-10-21 15:36:15,470 root INFO  Spell check done
+2022-10-21 15:36:16,868 root INFO  word cloud created successfully
+2022-10-21 15:36:16,876 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:36:16] "POST /review HTTP/1.1" 200 -
+2022-10-21 15:36:48,673 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:36:48] "GET / HTTP/1.1" 200 -
+2022-10-21 15:37:02,987 root INFO Description analysis started
+2022-10-21 15:37:08,794 root INFO Apps details captured
+2022-10-21 15:37:08,809 root INFO Data Downloaded in CSV format
+2022-10-21 15:37:18,961 root INFO  Spell check done
+2022-10-21 15:37:19,001 root INFO  word cloud created successfully
+2022-10-21 15:37:19,001 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:37:19] "POST /review HTTP/1.1" 200 -
+2022-10-21 15:39:16,384 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:39:16] "GET / HTTP/1.1" 200 -
+2022-10-21 15:39:31,870 root INFO Description analysis started
+2022-10-21 15:39:37,224 root INFO Apps details captured
+2022-10-21 15:39:37,234 root INFO Data Downloaded in CSV format
+2022-10-21 15:39:46,850 root INFO  Spell check done
+2022-10-21 15:39:46,906 root INFO  word cloud created successfully
+2022-10-21 15:39:46,906 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:39:46] "POST /review HTTP/1.1" 200 -
+2022-10-21 15:43:28,095 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:43:28,095 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:43:33,925 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:43:33] "GET / HTTP/1.1" 200 -
+2022-10-21 15:44:37,291 root INFO Description analysis started
+2022-10-21 15:44:42,811 root INFO Apps details captured
+2022-10-21 15:44:42,824 root INFO Data Downloaded in CSV format
+2022-10-21 15:44:55,737 root INFO  Spell check done
+2022-10-21 15:44:57,117 root INFO  word cloud created successfully
+2022-10-21 15:44:57,125 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:44:57] "POST /review HTTP/1.1" 200 -
+2022-10-21 15:45:49,019 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:45:49,019 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:45:50,967 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:45:50] "GET / HTTP/1.1" 200 -
+2022-10-21 15:46:15,048 root INFO Description analysis started
+2022-10-21 15:46:18,879 root INFO Apps details captured
+2022-10-21 15:46:18,895 root INFO Data Downloaded in CSV format
+2022-10-21 15:46:29,278 root INFO  Spell check done
+2022-10-21 15:46:30,956 root INFO Error in description Analysis
+2022-10-21 15:46:30,956 root ERROR can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 92, in fetch_review
+    stop_words = list(set((stop_words) + (remove_stop_words)))
+TypeError: can only concatenate list (not "str") to list
+2022-10-21 15:46:30,956 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 298, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 15:46:30,964 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 15:46:30,964 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:46:30] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 15:49:28,201 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 15:49:28,201 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 15:49:28,256 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:49:28] "GET / HTTP/1.1" 200 -
+2022-10-21 15:49:45,451 root INFO Description analysis started
+2022-10-21 15:49:50,853 root INFO Apps details captured
+2022-10-21 15:49:50,870 root INFO Data Downloaded in CSV format
+2022-10-21 15:50:00,676 root INFO  Spell check done
+2022-10-21 15:50:02,070 root INFO Error in description Analysis
+2022-10-21 15:50:02,070 root ERROR 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 92, in fetch_review
+    stop_words = list(set((stop_words).extend(remove_stop_words)))
+TypeError: 'NoneType' object is not iterable
+2022-10-21 15:50:02,070 root ERROR local variable 'words_freq_desc1' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 298, in fetch_review
+    return render_template('wordfrequency.html', var= words_freq_desc1)
+UnboundLocalError: local variable 'words_freq_desc1' referenced before assignment
+2022-10-21 15:50:02,078 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 15:50:02,078 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 15:50:02] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 16:09:55,508 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 16:09:55,508 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 16:09:57,809 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:09:57] "GET / HTTP/1.1" 200 -
+2022-10-21 16:10:18,321 root INFO Description analysis started
+2022-10-21 16:10:22,228 root INFO Apps details captured
+2022-10-21 16:10:22,243 root INFO Data Downloaded in CSV format
+2022-10-21 16:10:32,189 root INFO  Spell check done
+2022-10-21 16:10:33,669 root INFO  word cloud created successfully
+2022-10-21 16:10:33,676 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:10:33] "POST /review HTTP/1.1" 200 -
+2022-10-21 16:11:24,892 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 16:11:24,892 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 16:11:26,555 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:11:26] "GET / HTTP/1.1" 200 -
+2022-10-21 16:11:43,898 root INFO Description analysis started
+2022-10-21 16:11:47,836 root INFO Apps details captured
+2022-10-21 16:11:47,847 root INFO Data Downloaded in CSV format
+2022-10-21 16:11:57,485 root INFO  Spell check done
+2022-10-21 16:11:58,933 root INFO  word cloud created successfully
+2022-10-21 16:11:58,941 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:11:58] "POST /review HTTP/1.1" 200 -
+2022-10-21 16:12:51,726 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 16:12:51,726 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 16:12:53,727 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:12:53] "GET / HTTP/1.1" 200 -
+2022-10-21 16:13:07,082 root ERROR 'str' object has no attribute 'dtype'
+Traceback (most recent call last):
+  File "C:\Users\sahil\PycharmProjects\app1\main.py", line 52, in fetch_review
+    print(remove_stop_words.dtype)
+AttributeError: 'str' object has no attribute 'dtype'
+2022-10-21 16:13:07,082 main ERROR Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\helpers.py", line 209, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\sahil\anaconda3\envs\app1\lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'fetch_review' did not return a valid response. The function either returned None or ended without a return statement.
+2022-10-21 16:13:07,090 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:13:07] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+2022-10-21 16:18:21,363 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 16:18:21,363 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 16:18:23,992 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:18:23] "GET /review HTTP/1.1" 200 -
+2022-10-21 16:18:39,942 root INFO Description analysis started
+2022-10-21 16:18:45,171 root INFO Apps details captured
+2022-10-21 16:18:45,186 root INFO Data Downloaded in CSV format
+2022-10-21 16:18:54,914 root INFO  Spell check done
+2022-10-21 16:18:56,336 root INFO  word cloud created successfully
+2022-10-21 16:18:56,344 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 16:18:56] "POST /review HTTP/1.1" 200 -
+2022-10-21 18:05:05,135 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:05:05] "GET / HTTP/1.1" 200 -
+2022-10-21 18:12:47,132 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.12:8000
+2022-10-21 18:12:47,133 werkzeug INFO [33mPress CTRL+C to quit[0m
+2022-10-21 18:12:47,889 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:12:47] "GET / HTTP/1.1" 200 -
+2022-10-21 18:13:21,653 root INFO Recent changes analysis started
+2022-10-21 18:13:32,387 root INFO Apps details captured
+2022-10-21 18:13:32,402 root INFO Data Downloaded in CSV format
+2022-10-21 18:13:33,743 root INFO  Spell check done
+2022-10-21 18:13:34,889 root INFO  word cloud created successfully
+2022-10-21 18:13:34,895 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:13:34] "POST /review HTTP/1.1" 200 -
+2022-10-21 18:14:02,799 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:14:02] "GET / HTTP/1.1" 200 -
+2022-10-21 18:14:28,296 root INFO Description analysis started
+2022-10-21 18:14:38,800 root INFO Apps details captured
+2022-10-21 18:14:38,805 root INFO Data Downloaded in CSV format
+2022-10-21 18:15:07,166 root INFO  Spell check done
+2022-10-21 18:15:07,245 root INFO  word cloud created successfully
+2022-10-21 18:15:07,249 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:15:07] "POST /review HTTP/1.1" 200 -
+2022-10-21 18:16:12,057 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:16:12] "GET / HTTP/1.1" 200 -
+2022-10-21 18:16:43,745 root INFO Description analysis started
+2022-10-21 18:16:50,879 root INFO Apps details captured
+2022-10-21 18:16:50,892 root INFO Data Downloaded in CSV format
+2022-10-21 18:17:19,136 root INFO  Spell check done
+2022-10-21 18:17:19,214 root INFO  word cloud created successfully
+2022-10-21 18:17:19,218 werkzeug INFO 127.0.0.1 - - [21/Oct/2022 18:17:19] "POST /review HTTP/1.1" 200 -
