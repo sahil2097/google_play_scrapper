@@ -66,11 +66,11 @@ def fetch_review():
                         result_details.append(result_app)
                     app_details = pd.DataFrame(result_details)
                     logging.info('Apps details captured')
-                    try:
-                        app_details.to_csv(searchstring+'_data.csv')
-                        logging.info('Data Downloaded in CSV format')
-                    except Exception as e:
-                        logging.exception(e)
+#                     try:
+#                         app_details.to_csv(searchstring+'_data.csv')
+#                         logging.info('Data Downloaded in CSV format')
+#                     except Exception as e:
+#                         logging.exception(e)
 
                     df_desc_list = []
                     for i in app_details['description']:
@@ -139,24 +139,24 @@ def fetch_review():
                     logging.info(" all review details collected ")
 
                     # Trying to save the data
-                    try:
-                        reviews_full_df.to_csv(searchstring+'review_data.csv')
-                        logging.info(' review Data Downloaded in CSV format')
-                    except Exception as e:
-                        logging.exception(e)
+#                     try:
+#                         reviews_full_df.to_csv(searchstring+'review_data.csv')
+#                         logging.info(' review Data Downloaded in CSV format')
+#                     except Exception as e:
+#                         logging.exception(e)
 
                     # trying to store the data in mongodb
-                    try:
-                        logging.info('trying to store data in Mongodb')
-                        client = pymongo.MongoClient("mongodb+srv://sahil5723:NEWlife123@cluster0.1bbad.mongodb.net/?retryWrites=true&w=majority")
-                        df1 = reviews_full_df.to_json(orient='records')
-                        df2 = json.loads(df1)
-                        database = client['project']  # database name
-                        collection = database['gp_reviews_test']  # creating document
-                        collection.insert_many(df2)
-                    except Exception as e:
-                        logging.info(" Database issue ")
-                        logging.exception(e)
+#                     try:
+#                         logging.info('trying to store data in Mongodb')
+#                         client = pymongo.MongoClient("mongodb+srv://sahil5723:NEWlife123@cluster0.1bbad.mongodb.net/?retryWrites=true&w=majority")
+#                         df1 = reviews_full_df.to_json(orient='records')
+#                         df2 = json.loads(df1)
+#                         database = client['project']  # database name
+#                         collection = database['gp_reviews_test']  # creating document
+#                         collection.insert_many(df2)
+#                     except Exception as e:
+#                         logging.info(" Database issue ")
+#                         logging.exception(e)
 
                     content = []
                     for i in reviews_full:
@@ -232,11 +232,11 @@ def fetch_review():
                         result_details.append(result_app)
                     app_details = pd.DataFrame(result_details)
                     logging.info('Apps details captured')
-                    try:
-                        app_details.to_csv(searchstring+'_data.csv')
-                        logging.info('Data Downloaded in CSV format')
-                    except Exception as e:
-                        logging.exception(e)
+#                     try:
+#                         app_details.to_csv(searchstring+'_data.csv')
+#                         logging.info('Data Downloaded in CSV format')
+#                     except Exception as e:
+#                         logging.exception(e)
 
                     df_chang_list = []
                     for i in app_details['recentChangesHTML']:
