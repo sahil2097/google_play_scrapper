@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Search</h1>
+
+    <div class="form">
+        <form action="/review" method="POST">
+            <select id="operation" name="operation">
+                <option value="description_analysis">description_analysis</option>
+                <option value="review_analysis">review_analysis</option>
+                <option value="changes_analysis">changes_analysis</option>
+            </select>
+            <input type="text" name="content" id="content" placeholder="Enter Search string">
+            <input type="number" name="total_apps" id="total_apps" placeholder="Enter no. of Apps">
+            <input type="number" name="Number_of_words" id="Number_of_words" placeholder="Enter no. of features required">
+            <input type="text" name="remove_stop_words" id="remove_stop_words" placeholder="Extra stop words to be removed">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</div>
+{% endblock %}

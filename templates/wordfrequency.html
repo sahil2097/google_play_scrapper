@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Frequency Table</title>
+</head>
+<body>
+<table style="padding: 15px; ">
+            <tr>
+                <th style="padding: 10px;">
+                    WORDS
+                </th>
+                <th style="padding: 10px;">
+                    COUNT
+                </th>
+
+            </tr>
+
+        {% for i in var%}
+
+            <div>
+            <tr>
+
+                </td>
+
+                                <td>
+                   {{i[0]}}
+
+                </td>
+
+                </td>
+                                <td>
+                   {{i[1]}}
+
+                </td>
+
+            </tr>
+                </div>
+
+
+
+        {%endfor%}
+        </table>
+</body>
+</html>
